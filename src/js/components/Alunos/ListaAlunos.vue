@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Lista de Alunos!!!</h2>
+    <h2>Lista de Alunos</h2>
     <table>
       <thead>
         <tr>

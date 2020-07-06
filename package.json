@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jonathan-m-borges/simple-demo-vuejs#readme",
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "vue": "^2.6.11",
     "vue-hot-reload-api": "^2.3.4"
   },
@@ -29,8 +30,5 @@
     "sass": "^1.26.9",
     "typescript": "^3.9.6",
     "vue-template-compiler": "^2.6.11"
-  },
-  "alias": {
-    "vue": "./node_modules/vue/dist/vue.common.js"
   }
 }
