@@ -13,8 +13,14 @@ import Aluno from "../../models/Aluno";
 export default {
   data() {
     return {
-      proxId: 2,
-      alunos: []
+      proxId: 6,
+      alunos: [
+        new Aluno(1, 'Darth Vader', 6),
+        new Aluno(2, 'Luke Skywalker', 9),
+        new Aluno(3, 'Leia Organa', 9.5),
+        new Aluno(4, 'Yoda', 10),
+        new Aluno(5, 'Chewbacca', 10),
+      ]
     };
   },
   methods: {
